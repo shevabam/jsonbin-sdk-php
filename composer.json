@@ -1,0 +1,31 @@
+{
+    "name": "shevabam/jsonbin-sdk-php",
+    "description": "PHP SDK for JsonBin.io API",
+    "keywords": ["json", "jsonbin", "api", "php", "sdk"],
+    "homepage": "https://github.com/shevabam/jsonbin-sdk-php",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "support": {
+        "issues": "https://github.com/shevabam/jsonbin-sdk-php/issues",
+        "source": "https://github.com/shevabam/jsonbin-sdk-php/tree/master"
+    },
+    "authors": [
+        {
+            "name": "shevabam",
+            "email": "me@shevarezo.fr",
+            "homepage": "https://shevarezo.fr"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.0",
+        "psr/http-client": "^1.0",
+        "psr/log": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsonBinSDK\\": "src/"
+        }
+    }
+}
