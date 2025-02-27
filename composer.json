@@ -16,9 +16,9 @@
             "homepage": "https://shevarezo.fr"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "require": {
-        "php": "^8.3",
+        "php": "^8.2",
         "guzzlehttp/guzzle": "^7.0",
         "psr/http-client": "^1.0",
         "psr/log": "^3.0"

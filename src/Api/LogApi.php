@@ -6,7 +6,7 @@ namespace JsonBinSDK\Api;
 
 use JsonBinSDK\HttpClient\ClientInterface;
 
-class LogApi
+readonly class LogApi
 {
     public function __construct(private readonly ClientInterface $client)
     {

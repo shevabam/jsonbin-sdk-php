@@ -6,7 +6,7 @@ namespace JsonBinSDK\Api;
 
 use JsonBinSDK\HttpClient\ClientInterface;
 
-class AccessKeyApi
+readonly class AccessKeyApi
 {
     public function __construct(private readonly ClientInterface $client)
     {

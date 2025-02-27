@@ -11,7 +11,7 @@ use JsonBinSDK\Api\LogApi;
 use JsonBinSDK\Config\Configuration;
 use JsonBinSDK\HttpClient\GuzzleClient;
 
-class JsonBinClient
+readonly class JsonBinClient
 {
     private Configuration $config;
     private BinApi $binApi;

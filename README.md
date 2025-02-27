@@ -1,6 +1,6 @@
 # JsonBin.io PHP SDK
 
-A modern PHP SDK for the [JsonBin.io](https://jsonbin.io) API. This SDK uses PHP 8.3 and follows development best practices to provide you with a clean and fluent interface to the JsonBin.io API.
+A modern PHP SDK for the [JsonBin.io](https://jsonbin.io) API. This SDK uses PHP 8.2+ and follows development best practices to provide you with a clean and fluent interface to the JsonBin.io API.
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ A modern PHP SDK for the [JsonBin.io](https://jsonbin.io) API. This SDK uses PHP
 
 ## Requirements
 
-- PHP 8.3 or higher
+- PHP 8.2 or higher
 - Composer
 
 ## Installation

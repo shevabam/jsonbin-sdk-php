@@ -6,7 +6,7 @@ namespace JsonBinSDK\Api;
 
 use JsonBinSDK\HttpClient\ClientInterface;
 
-class BinApi
+readonly class BinApi
 {
     private const HEADER_PRIVATE = 'X-Bin-Private';
     private const HEADER_NAME = 'X-Bin-Name';
